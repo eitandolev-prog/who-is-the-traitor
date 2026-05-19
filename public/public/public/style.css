@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background: #0f0f0f;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#menu {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: cyan;
+}
+
+input {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: cyan;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#players {
+    margin-top: 20px;
+    font-size: 20px;
+}
