@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who Is The Traitor</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="menu">
+    <h1>🎭 WHO IS THE TRAITOR</h1>
+
+    <input id="name" placeholder="Your name">
+
+    <input id="room" placeholder="Room code">
+
+    <button onclick="joinRoom()">
+        JOIN ROOM
+    </button>
+</div>
+
+<div id="players"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="game.js"></script>
+
+</body>
+</html>
